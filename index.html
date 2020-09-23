@@ -4,15 +4,29 @@
         <script src="script.js"></script>
     </head>
     <body>
-        <main>
-            <div class="game_block">
+        <div class="popup">
+            <div class="contaner">
+                <div class="title">Хотите открыть игру в полноэкранном режиме ?</div>
+                <div class="bottom_contaner">
+                    <div class="bottom" id = "full">Да</div>
+                    <div class="bottom" id = "notfull">Нет</div>
+                </div>
+            </div>
+        </div>
+        <main style="display: none;">
+            <div class="game_block" id = 'game-block'>
                 <div class="pause" style="display: none">PAUSE</div>
-                <canvas id="game" width="640" height="360"></canvas>
+                <div class="copmlite_level" style="display: none">Level <span>1</span> complite</div>
+                <!--canvas id="game" width="1044" height="587"></canvas-->
+                <canvas id="game" width="1300" height="731"></canvas>
+                <div id="info_block">SCORE: <span id='score'>0</span> LEVEL: <span id="level">1</span> Live: <span id="live"></span></div>
+                <div class="panel">
+                    <div id="pause">&#10074;&#10074;</div>
+                    <div id="play">&#9658;</div>
+                    <div id='sound'>&#128265;</div>
+                </div>
             </div>
-            <div class="panel">
-                <div id="pause">||</div>
-                <div> > </div>
-            </div>
+
         </main>
     </body>
 </html>
