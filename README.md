@@ -1,3 +1,3 @@
 #Arkanoid
 
-https://wilpkron.github.io/arcanoid/
+https://wilpkron.github.io/Arkanoid/
