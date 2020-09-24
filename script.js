@@ -420,13 +420,13 @@ game.ball = {
         data.dx *= -1;
         this.dx = data.dx;
         this.dy = data.dy;
-        game.platform.magnet = !game.platform.magnet;
+        //game.platform.magnet = !game.platform.magnet;
 
-        if(game.platform.magnet) {
-            this.dx = 0;
-            this.dy = 0;
-            game.platform.ball = this;
-        }
+//         if(game.platform.magnet) {
+//             this.dx = 0;
+//             this.dy = 0;
+//             game.platform.ball = this;
+//         }
 
     },
     checkBounds: function () {
